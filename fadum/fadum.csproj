@@ -180,8 +180,13 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\facebook.png" />
+    <Content Include="assets\instagram.png" />
+    <Content Include="assets\twitter.png" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\pexels-photo-354587.jpeg" />
+    <Content Include="Content\pexels-photo-47401.jpeg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -200,6 +205,13 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="textil\.gitattributes" />
+    <Content Include="textil\animate.css" />
+    <Content Include="textil\index.html" />
+    <Content Include="textil\jquery.fittext.js" />
+    <Content Include="textil\jquery.lettering.js" />
+    <Content Include="textil\jquery.textillate.js" />
+    <Content Include="textil\style.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -234,6 +246,10 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="textil\bower.json" />
+    <Content Include="textil\LICENSE" />
+    <Content Include="textil\package.json" />
+    <Content Include="textil\README.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

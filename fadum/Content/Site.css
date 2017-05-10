@@ -1,24 +1,160 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿html,
+body{
+    height:100%;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    color:#6c6f73;
+    font-family: 'Raleway', sans-serif;
+
+}
+h1,h2,h3,h4,h5 {
+    color:#333;
+}
+h6{
+    font-weight:bold;
+    font-size:14px;
+    /*letter-spacing:0.1rem;*/
+}
+img{
+    max-width:100%;
+}
+.blockqoute{
+    font-size:1.6rem;
+    color:#333;
+    border:none;
+    padding:0;
+}
+.blockqoute-footer{
+    margin:1rem 0 0;
+}
+.navbar-inverse {
+    background-color: #222222;
+    opacity:0.7;
+    border:none;
+    font-family: 'Raleway', sans-serif;
+    color: #de0a8c;
+}
+.navbar-brand {
+    color: #de0a8c;
+    font-family: 'Raleway', sans-serif;
+    font-size:40px;
+    font-style:italic;
+    font-weight:600;
+}
+.btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 40px;
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+.btn-success {
+    color: #ffffff;
+    background-color: rgba(255, 156, 51, 0.86);
+    border-color: rgba(255, 156, 51, 0.86);
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
-.dl-horizontal dt {
-    white-space: normal;
+#stage {
+    background-image: url('pexels-photo-47401.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#stage-caption{
+    font-size:17px;
+    font-weight:200;
+   padding-top:150px;
+    
+    max-width:60rem;
+    /*line-height: 73px;*/
+    margin:0 auto;
+    text-align:center;
+}
+#stage-caption h1{
+    /*color:#ff3364;*/
+    color: rgba(255, 156, 51, 0.86);
+    font-family: 'Raleway', 'Blackadder ITC';
+    font-style:italic;
+    font-weight:bold;
+     font-size: 64px;
+    /*line-height: 73px;*/
+    text-shadow: none;
+
+}
+.feature-content{
+    padding:8rem 0;
+    overflow:hidden;
+
+}
+.feature-content img {
+    margin-bottom:-6rem;
+}
+.feature-two{
+    background-color: #bcc6c9;
+    color:black;
+}
+.feature-dark{
+    background-color:#8f9092;
+    color:white;
+}
+@media screen and (min-width:991px){
+    .feature-content{
+        display:flex;
+        align-items:center;
+    }
+
+}
+.feature-enter{
+   text-align:center;
+   align-items:center;
+}
+.feature-pilar{
+   text-align:center;
+   align-items:center;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+.footerholder {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    align-items:center;
+}
+
+.footer {
+    background: none repeat scroll 0 0 blue;
+    height: 50px;
+    margin: auto;
+    width: 200px;
+    border-radius: 7px;
+    padding-top: 10px;
+      background-color: rgba(85, 81, 43, 0.58);
+}
+.card {
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        background-color: rgba(113, 109, 109, 0.32);
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: .60rem;
+        margin: 15px;
+
+    }
+
+.card-title{
+    color: #bcc6c9;
 }
